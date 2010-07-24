@@ -89,13 +89,19 @@ pre {
 }
 
 .entry .date {
-	font-family: verdana, arial, sans-serif;
+#	font-family: verdana, arial, sans-serif;
 	color: grey;
 }
 
 .entry .date a {
 	text-decoration: none;
 	color: inherit;
+}
+
+.channelgroup .datum {
+        color: #888888;
+        font-size: x-small;
+        font-style: italic;
 }
 
 .sidebar {

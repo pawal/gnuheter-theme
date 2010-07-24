@@ -6,12 +6,13 @@
 
   <?php while (have_posts()) : the_post(); ?>
     <div class="channelgroup"><h3><?php if (is_syndicated()) { ?> 
-      <a href="<?php the_syndication_source_link(); ?>"><?php the_syndication_source(); ?></a>
+    <div class="datum"><?php the_time('Y-m-d') ?> av <?php the_author_nickname(); ?></div>
+    <a href="<?php the_syndication_source_link(); ?>"><?php the_syndication_source(); ?></a>
     <?php } ?></h3>
-   <div class="entrygroup"><h4>
-     <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
-   <div class="entry"><div><?php the_content('Read the rest of this entry &raquo;'); ?></div>
-   </div></div></div>
+  <div class="entrygroup"><h4>
+    <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
+    <div class="entry"><div><?php the_content('Read the rest of this entry &raquo;'); ?></div>
+    </div></div></div>
   <?php endwhile; ?>
 </div>
 <?php else : ?>
