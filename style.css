@@ -98,6 +98,10 @@ pre {
 	color: inherit;
 }
 
+.entry .feedflare {
+        display: none;
+}
+
 .channelgroup .datum {
         color: #888888;
         font-size: x-small;

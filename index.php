@@ -6,7 +6,7 @@
 
   <?php while (have_posts()) : the_post(); ?>
     <div class="channelgroup"><h3><?php if (is_syndicated()) { ?> 
-    <div class="datum"><?php the_time('Y-m-d') ?> av <?php the_author_nickname(); ?></div>
+    <span class="datum"><?php the_time('Y-m-d') ?> av <?php the_author_nickname(); ?></span><br />
     <a href="<?php the_syndication_source_link(); ?>"><?php the_syndication_source(); ?></a>
     <?php } ?></h3>
   <div class="entrygroup"><h4>

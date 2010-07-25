@@ -1,5 +1,5 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <title><?php bloginfo('name'); wp_title(); ?></title>
   <meta name="description" content="<?php bloginfo('description'); ?>" />
@@ -12,5 +12,5 @@
 </head>
 <body>
 <div class="header">
-  <a href="/"><img src="http://gnuheter.com/gnuwhite.png" width="273" height="101" alt="" style="margin: 0px" border="0"></a>
+  <a href="/"><img src="http://gnuheter.com/gnuwhite.png" width="273" height="101" alt="" style="margin: 0px" border="0" /></a>
 </div>
