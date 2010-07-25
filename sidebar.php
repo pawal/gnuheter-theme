@@ -2,6 +2,7 @@
    <?php if ( !function_exists('dynamic_sidebar')
 || !dynamic_sidebar() ) : ?>
    <?php endif; ?>
+   <?php wp_meta(); ?>
 
    <h2>Gnuheter</h2>
 
